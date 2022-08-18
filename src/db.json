@@ -1,28 +1,19 @@
 {
-  "clientes": [
+  "posts": [
     {
-      "nombre": "ERICK   dfg",
-      "empresa": "gsdfgdf",
-      "email": "peshdfggggggggggus.182@gmail.com",
-      "telefono": "5562437334",
-      "notas": "",
-      "id": 6
-    },
-    {
-      "nombre": "actualizado fgghfghf actualizado",
-      "empresa": "actualizado ghf actualizado",
-      "email": "actualizadoghfpeshus.182@gmail.com",
-      "telefono": "5562437334",
-      "notas": "actualizado",
-      "id": 7
-    },
-    {
-      "nombre": "nuevo",
-      "empresa": "nuevo",
-      "email": "nuevo@nuevo.com",
-      "telefono": "",
-      "notas": "kllllll",
-      "id": 8
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
