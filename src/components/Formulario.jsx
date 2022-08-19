@@ -47,7 +47,7 @@ export const Formulario = ({ cliente, cargando }) => {
       }
 
       await response.json();
-      navigate('/clientes');
+      navigate('/');
     } catch (error) {
       console.log(error);
     }
@@ -71,7 +71,7 @@ export const Formulario = ({ cliente, cargando }) => {
         onSubmit={async (values, { resetForm }) => {
           await handleSumit(values);
           resetForm();
-          navigate('/clientes');
+          navigate('/');
         }}
         validationSchema={nuevoClienteSchema}
       >

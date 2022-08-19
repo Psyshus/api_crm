@@ -23,14 +23,14 @@ export const Cliente = ({ cliente, handleEliminar }) => {
         <button
           className="bg-yellow-500 hover:bg-yellow-600 transition-all duration-300 ease-in-out   block w-full text-white p-2 uppercase font-bold text-xs mt-3 rounded-md"
           type="button"
-          onClick={() => navigate(`/clientes/${id}`)}
+          onClick={() => navigate(`/${id}`)}
         >
           Ver
         </button>
         <button
           className="bg-blue-600 hover:bg-blue-700 transition-all duration-300 ease-in-out  block w-full text-white p-2 uppercase font-bold text-xs mt-3 rounded-md"
           type="button"
-          onClick={() => navigate(`/clientes/editar/${id}`)}
+          onClick={() => navigate(`/editar/${id}`)}
         >
           Editar
         </button>
